@@ -13,8 +13,8 @@ import { FaShoppingBag } from "react-icons/fa";
 import logo from "../assets/Logo.png";
 import shipping from "../assets/shipping.png";
 import icon1 from "../assets/Icon1.png";
-import icon2 from "../assets/Icon2.png";
-import { useCart } from "../context/CartContext";
+import icon2 from "../assets/icon2.png";
+import { useCart } from "../context/cartContext";
 import { useNavigate,Link} from "react-router-dom";
 const Navbar = () => {
   const [openDropdown, setOpenDropdown] = useState("");
